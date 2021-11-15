@@ -3,7 +3,6 @@
     <div class="container">
       <div class="header__inner">
         <div class="header__item">
-
           <div class="header__logo">ДОБРИВО</div>
 
           <nav class="header__nav">
@@ -25,7 +24,6 @@
               <button class="header__lang-btn">RU</button>
             </div>
           </nav>
-
         </div>
 
         <div class="header__item">
