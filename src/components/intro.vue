@@ -1,5 +1,4 @@
 <template>
-  <!-- Intro start -->
   <section class="intro">
     <div class="container">
       <div class="section__inner">
@@ -11,7 +10,6 @@
       </div>
     </div>
   </section>
-  <!-- Intro end -->
 </template>
 
 <style lang="scss">
@@ -30,7 +28,7 @@
   width: 100%;
   max-width: 607px;
   padding-top: 245px;
-  margin-left: 90px;
+  margin-left: 70px;
 
   & div {
     color: #fff;

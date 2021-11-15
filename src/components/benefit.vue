@@ -1,0 +1,68 @@
+<template>
+  <section class="benefit">
+    <div class="container">
+      <div class="benefit__inner">
+        <div class="benefit__item">
+          <div class="benefit__advantages">
+            <div class="benefit__img">
+              <div class="benefit__img-inner">
+                <img
+                  class="benefit__img-oil"
+                  src="./../assets/images/oil.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="benefit__list">
+              <div class="benefit__card">
+                <h2 class="benefit__card-title">ПРИРОСТ УРОЖАЯ</h2>
+                <div class="benefit__card-subtitle">
+                  в сравнении с химическим удобрением
+                </div>
+                <div class="benefit__card-amount">30%-250%</div>
+              </div>
+
+              <div class="benefit__card">
+                <h2 class="benefit__card-title">ЭКОНОМИЯ</h2>
+                <div class="benefit__card-subtitle">
+                  химических удобрений в хозяйстве
+                </div>
+                <div class="benefit__card-amount">до 70%</div>
+              </div>
+
+              <div class="benefit__card">
+                <h2 class="benefit__card-title">РОСТ КОРНЕВОЙ</h2>
+                <div class="benefit__card-subtitle">
+                  системы растений при использовании
+                </div>
+                <div class="benefit__card-amount">в 3-10раз</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="benefit__item"></div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style lang="scss">
+.benefit__card {
+  &::before {
+    position: absolute;
+    top: -7.5px;
+    left: -23px;
+    display: block;
+    content: url("./../assets/images/icon_star.png");
+    width: 33px;
+    height: 32px;
+    transform: translateX(-100%);
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+</style>

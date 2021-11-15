@@ -1,5 +1,4 @@
 <template>
-  <!-- Header start -->
   <header class="header">
     <div class="container">
       <div class="header__inner">
@@ -59,5 +58,4 @@
       </div>
     </div>
   </header>
-  <!-- Header end -->
 </template>

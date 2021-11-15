@@ -1,0 +1,60 @@
+.benefit {
+    width: 100%;
+}
+
+
+.benefit__inner {
+    display: grid;
+    grid-template-columns: 1fr .65fr;
+}
+
+.benefit__advantages {
+    display: flex;
+}
+
+.benefit__img {
+    width: 100%;
+    max-width: 190px;
+    position: relative;
+    padding-top: 181%;
+}
+
+.benefit__img-inner {
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.benefit__img-oil {
+    width: 100%;
+}
+
+.benefit__list {
+    width: 100%;
+    margin-left: 82px;
+    padding-top: 19px;
+}
+
+.benefit__card {
+    position: relative;
+    margin-bottom: 27px;
+}
+
+.benefit__card-title {
+    font-size: 1.57rem;
+    color: #4D4545;
+    margin-bottom: .45rem;
+    font-weight: 400;
+}
+
+.benefit__card-subtitle {
+    font-weight: 300;
+    font-size: .69rem;
+    color: #A7A9AC;
+    margin-bottom: .45rem;
+}
+
+.benefit__card-amount {
+    font-size: 1.57rem;
+    color: #C49A6C;
+}
