@@ -1,6 +1,6 @@
 <template>
   <section class="benefit">
-    <div class="container">
+    <div class="benefit__container container">
       <div class="benefit__inner">
         <div class="benefit__item">
           <div class="benefit__advantages">
@@ -57,23 +57,20 @@
             </div>
           </div>
         </div>
-        <div class="benefit__item"></div>
+        <div class="benefit__item benefit__item--calc">
+          <Calculator />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
-<style lang="scss">
-.benefit__card {
-  &::before {
-    position: absolute;
-    top: -7.5px;
-    left: -23px;
-    display: block;
-    content: url("./../assets/images/icon_star.png");
-    width: 33px;
-    height: 32px;
-    transform: translateX(-100%);
-  }
-}
-</style>
+<script>
+import Calculator from "./calculator.vue";
+export default {
+  name: "benefit",
+  components: {
+    Calculator,
+  },
+};
+</script>

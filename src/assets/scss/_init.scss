@@ -26,10 +26,23 @@ h6 {
 .container {
     width: 100%;
     max-width: 1200px;
-    padding: 0 100px;
+    padding: 0 120px 0 80px;
     margin: 0 auto;
 }
 
 .page {
     width: 100%;
+}
+
+@mixin triangle($size:3px, $border: 2.5px, $color: #000, $deg: -45deg) {
+    border-width: $border;
+    border-style: solid;
+    border-color: $color;
+    background-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotate($deg);
+
+    width: $size;
+    height: $size;
 }

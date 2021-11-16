@@ -1,9 +1,20 @@
 .benefit {
     width: 100%;
 
+    &__container {
+        padding: 0 20px 0 80px;
+    }
+
     &__inner {
         display: grid;
-        grid-template-columns: 1fr .635fr;
+        grid-template-columns: 1.25fr 1fr;
+    }
+
+    
+    &__item--calc {
+        position: relative;
+        background: no-repeat url('../../assets/images/corn.jpg') center;
+        background-size: cover;
     }
 
     &__advantages {
@@ -13,6 +24,7 @@
     &__img {
         width: 100%;
         max-width: 190px;
+        margin-left: 24px;
     }
 
     &__img-inner {
@@ -34,6 +46,10 @@
         height: 100%;
     }
 
+    &__content {
+        width: 100%;
+    }
+
     &__cards {
         width: 100%;
         margin-left: 80px;
@@ -47,6 +63,17 @@
         &:last-child {
             margin-bottom: 0;
         }
+
+        &::before {
+            position: absolute;
+            top: -7.5px;
+            left: -23px;
+            display: block;
+            content: url("../../assets/images/icon_star.png");
+            width: 33px;
+            height: 32px;
+            transform: translateX(-100%);
+          }
     }
 
     &__card-title {
@@ -72,6 +99,7 @@
 .learnmore {
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .learnmore__title {

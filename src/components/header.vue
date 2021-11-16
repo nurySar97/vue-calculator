@@ -48,7 +48,10 @@
                 <a href="#" class="header__menu-link">Контакты</a>
               </li>
               <li class="header__menu-item">
-                <button class="header__menu-btn">Корзина</button>
+                <button class="header__menu-btn">
+                  <img src="./../assets/images/icon_shop.png">
+                  <span>Корзина</span>
+                </button>
               </li>
             </ul>
           </nav>
